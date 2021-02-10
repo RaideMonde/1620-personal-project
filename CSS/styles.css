@@ -1,12 +1,27 @@
+/*
+    Palette colors
+    #e5dada     :off-white
+    #002642     :Purple
+    #e59500     :Orange
+    #02040f     :Black
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
 body {
     background-color: #e5dada;
 }
+nav {
+    background-color: #e59500;
+    border: 3px solid #02040f;
+    padding-left: 10px;
+}
 h1 {
-    color: #41395B;
+    color: #02040f;
+    font-family: 'lexend Mega', sans-serif;
 }
 p {
     color: #02040f;
 }
 img{
-    border: 5px solid black
+    border: 2px solid black
 }
