@@ -20,6 +20,10 @@ nav {
     top: 10px;
 }
 
+footer {
+    clear: left;
+}
+
 h1 {
     color: #02040f;
     font-family: 'lexend Mega', sans-serif;
@@ -42,11 +46,6 @@ img {
 .floatLeft {
     float: left;
     padding: 1em;
-
-}
-
-.cleared{
-    clear:left
 }
 
 #selfie{
