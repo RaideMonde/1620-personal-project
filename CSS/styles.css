@@ -34,15 +34,15 @@ p::first-letter {
     font-size: 1.5rem;
 }
 
-img{
+img {
     border-radius: 5px solid black;
     margin-right: 15px;
-    float: left;
-    padding: 1em;
 }
 
-#selfie{
-    height: 400px;
+.floatLeft {
+    float: left;
+    padding: 1em;
+
 }
 
 .wrapper{
@@ -52,4 +52,8 @@ img{
 
 .cleared{
     clear:left
+}
+
+#selfie{
+    height: 400px;
 }
