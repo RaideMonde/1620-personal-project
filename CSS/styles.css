@@ -20,8 +20,23 @@ nav {
     top: 10px;
 }
 
-footer {
-    clear: left;
+nav li{
+    display: inline;
+}
+
+nav ul{
+    display: block;
+}
+
+nav li a {
+    padding: 8px;
+    color: #002642;
+    text-align: center;
+}
+
+nav li a:hover{
+    color:#e5dada;
+    background-color: #002642;
 }
 
 h1 {
@@ -32,6 +47,10 @@ h1 {
 p {
     color: #02040f;
     padding-left: 10px;
+}
+
+footer {
+    clear: left;
 }
 
 p::first-letter {
@@ -47,6 +66,12 @@ img {
     float: left;
     padding: 1em;
 }
+
+.active{
+    color:#e5dada;
+    background-color: #002642;
+}
+
 
 #selfie{
     height: 400px;
